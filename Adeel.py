@@ -127,10 +127,10 @@ def EMRAN_programmer():
     time.sleep(5)
     nahid_afridy()
     if NAHID == '2':
-        os.system('xdg-open https://www.facebook.com/ved.baghel.39)
+        os.system('xdg-open https://www.facebook.com/ved.baghel.39')
         nahid_afridy()
     if NAHID == '3':
-        os.system('xdg-open https://www.facebook.com/ved.baghel.39)
+        os.system('xdg-open https://www.facebook.com/ved.baghel.39')
         nahid_afridy()
     if NAHID == '0': 
         os.system('exit')
