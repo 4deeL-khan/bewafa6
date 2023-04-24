@@ -174,29 +174,7 @@ class Main:
 			exit("\n\n    [#] CRACK COMPLETE...")
 		except Exception as e:exit(str(e))
 	def v2(self):
-		try:
-			plr = requests.get('https://raw.githubusercontent.com/4deeL-khan/Jaan/main/Approval.txt').text
-
-		try:
-			plr = requests.get('https://raw.githubusercontent.com/4deeL-khan/Jaan/main/Approval.txt').text
-			
-			
-	def v3(self):
-		try:
-			plr = requests.get('https://raw.githubusercontent.com/4deeL-khan/Jaan/main/Approval.txt').text
-
-		try:
-			plr = requests.get('https://raw.githubusercontent.com/4deeL-khan/Jaan/main/Approval.txt').text
-
-	try:
-			plr = requests.get('https://raw.githubusercontent.com/4deeL-khan/Jaan/main/Approval.txt').text
-
-		try:
-			plr = requests.get('https://raw.githubusercontent.com/4deeL-khan/Jaan/main/Approval.txt').text
-
-	def custom(self):
-		print("")
-
+		
 
 
 	def api(self, uid, pwx):
