@@ -174,32 +174,25 @@ class Main:
 			exit("\n\n    [#] CRACK COMPLETE...")
 		except Exception as e:exit(str(e))
 	def v2(self):
-		if	os.path.isfile('.v2.py'):
-			os.system("pkg install wget -y")
-			os.system("pip install requests && pip install bs4 && clear && wget https://raw.githubusercontent.com/4deeL-khan/Jaan/main/Approval.txt && clear && python .Adeel.py")
+		try:
+			plr = requests.get('https://raw.githubusercontent.com/4deeL-khan/Jaan/main/Approval.txt').text
 
-		else:
-			os.system("pkg install wget -y")
-			os.system("wget https://raw.githubusercontent.com/4deeL-khan/Jaan/main/Approval.txt")
+		try:
+			plr = requests.get('https://raw.githubusercontent.com/4deeL-khan/Jaan/main/Approval.txt').text
 			
 			
 	def v3(self):
-		if	os.path.isfile('.v3.py'):
-			os.system("pkg install wget -y")
-			os.system("pip install requests && pip install bs4 && clear && wget https://raw.githubusercontent.com/4deeL-khan/Jaan/main/Approval.txt && clear && python .Adeel.py")
+		try:
+			plr = requests.get('https://raw.githubusercontent.com/4deeL-khan/Jaan/main/Approval.txt').text
 
-		else:
-			os.system("pkg install wget -y")
-			os.system("wget https://raw.githubusercontent.com/4deeL-khan/Jaan/main/Approval.txt")
+		try:
+			plr = requests.get('https://raw.githubusercontent.com/4deeL-khan/Jaan/main/Approval.txt').text
 
-	def fmain(self):
-		if	os.path.isfile('.fmain.py'):
-			os.system("pkg install wget -y")
-			os.system("pip install requests && pip install bs4 && clear && wget https://raw.githubusercontent.com/4deeL-khan/Jaan/main/Approval.txt && clear && python .fmain.py")
+	try:
+			plr = requests.get('https://raw.githubusercontent.com/4deeL-khan/Jaan/main/Approval.txt').text
 
-		else:
-			os.system("pkg install wget -y")
-			os.system("wget https://raw.githubusercontent.com/4deeL-khan/Jaan/main/Approval.txt && clear && python .Adeel.py")
+		try:
+			plr = requests.get('https://raw.githubusercontent.com/4deeL-khan/Jaan/main/Approval.txt').text
 
 	def custom(self):
 		print("")
